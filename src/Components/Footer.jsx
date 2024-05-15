@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer id="footer" className="bg-footer text-white">
       <div className="container">
-        <div className="bg-footer-voilet position-relative">
+        <div className="bg-footer-voilet ">
           <div className="long">
             <img src={long} alt="Your Logo" style={{ maxHeight: "100px" }} />
             <div>
