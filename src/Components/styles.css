@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* productws */
+.product-h1 {
+  margin-top: 50px !important;
+  font-family: Anton;
+  font-size: 100px;
+  font-weight: 200;
+  text-align: left;
+  color: #292929;
+}
+.product-header-b1 {
+  background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Anton;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #292929;
+  margin-top: 0;
+}
+.tilde {
+  position: relative;
+  top: -10px; /* Adjust this value to fine-tune the position */
+}
+.linkedin-img {
+  filter: invert(100%);
+}
+
+/* success */
+
+.success-1 {
+  color: #64c661;
+  font-family: Anton;
+  font-size: 28px;
+  text-align: center;
+}
+
+.success-para {
+  font-family: Gotham Black;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  width: 250px;
+}
+.success-para-last {
+  font-family: Gotham Black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  width: 220px;
+}
+
+.success-border {
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+/* UI */
+.bg-btn {
+  background-color: #e9dffc;
+  color: #be9ff6;
+  border-radius: 12px;
+}
+.graph-img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .border-skills {
+    width: 100%;
+  }
+  .d-flex.flex-column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* skills */
+.border-skills {
+  border: 1px solid black;
+}
+
+/* sheild */
+.top {
+  background-image: url("../asserts/bg-sheild.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.shield-para {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 50.4px;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+
+/* aboutme */
+.aboutme-para {
+  font-family: Gotham Black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  padding: 25px;
+}
+.product-designer {
+  background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.co {
+  color: #fee140;
+}
+.lomb {
+  color: #65c8ff;
+}
+.ian {
+  color: #ff0000;
+}
+
+/* Footer */
+.bg-footer {
+  background-color: #292929;
+}
+.bg-footer-voilet {
+  background-color: #a87ff3;
+  height: 180px;
+  top: -85px;
+  gap: 0px;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+ margin-top: 200px;
+ 
+}
+
+.top-logo {
+  width: 281px;
+  height: 397px;
+  top: -217px;
+  left: -33px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.logo {
+  height: 50px;
+  top: 6762px;
+  padding: 0px 0px 47px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.white-logo {
+  filter: invert(100%);
+  margin-left: 30px;
+}
+.margin-ul {
+  margin-right: 30px !important;
+}
+
+.all {
+  margin-left: 350px;
+}
+.equal-width {
+  flex: 1; /* Equal width distribution */
+}
+
+
+@media screen and (max-width: 768px) {
+  .bg-footer-voilet,
+  .bg-footer-black,
+  .margin-ul {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footerflex {
+    display: flex !important;
+    flex-direction: row !important;
+    font-size: 10px;
+    gap: 10px;
+  }
+
+  .bg-footer-voilet{
+    margin-right: 200px !important;
+  }
+}
