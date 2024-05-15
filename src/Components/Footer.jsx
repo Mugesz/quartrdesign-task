@@ -45,7 +45,7 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href="/contact-us" className="btn btn-footer text-white">
+                <a href="/" className="btn btn-footer text-white">
                   Contactus
                 </a>
               </p>

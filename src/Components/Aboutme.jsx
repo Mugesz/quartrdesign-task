@@ -20,14 +20,14 @@ const Aboutme = () => {
             users.
           </p>
         </div>
-        <div className="col-lg-6 d-lg-flex align-items-center">
+        <div className="col-lg-6 d-lg-flex align-items-center align-lg-first">
           <img src={baby} alt="" className="img-fluid" />
         </div>
-        <div className="col-lg-6 d-lg-flex align-items-center">
+        <div className="col-lg-6 d-lg-flex align-items-center align-lg-second">
           <img src={girl} alt="" className="img-fluid" />
         </div>
         <div className="col-lg-6 d-lg-flex align-items-center">
-          <p className="text-center aboutme-para">
+          <p className="text-center aboutme-para align-lg-second">
             I am passionate about{" "}
             <span className="product-designer">never stop learning</span>. I am
             constantly training and learning about new and changing{" "}
@@ -48,7 +48,7 @@ const Aboutme = () => {
             being with the desire to do his best to help others.
           </p>
         </div>
-        <div className="col-lg-6 d-lg-flex align-items-center">
+        <div className="col-lg-6 d-lg-flex align-items-center align-lg-third">
           <img src={boy} alt="" className="img-fluid" />
         </div>
       </div>

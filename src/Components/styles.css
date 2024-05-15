@@ -153,6 +153,10 @@
 
 }
 
+.custom-container{
+  margin-top: 180px !important;
+}
+
 .voilet-container{
   position: absolute;
   background-color: #A87FF3;
@@ -243,6 +247,14 @@
     height: 200px;
   }
 
-
 }
 
+@media (max-width: 991.98px) {
+  .align-lg-first {
+    order: -1;
+  }
+
+  .align-lg-second {
+    order: 0;
+  }
+} 
