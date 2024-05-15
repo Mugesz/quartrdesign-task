@@ -8,22 +8,9 @@ function Footer() {
   return (
     <footer id="footer" className="bg-footer text-white ">
       <div className="container custom-container">
-        <div className="bg-footer-voilet">
-          <div className="long ">
-            <img src={long} alt="Your Logo" className="custom-image" />
-            <div>
-              <p className="text-center">Thanks for visiting my website</p>
-              <p className="text-center">
-                If you have any questions, you can write to me on any of my
-                social networks. I'm sure I'll answer you.
-              </p>{" "}
-            </div>
-            <img src={Line} alt="" height="50px" className="line-img" />
-          </div>
-        </div>
-
-        <div className="d-flex justify-content-between align-items-center custom-main-footer">
-          <div className="col-md-6 d-flex align-items-center pt-5 mt-5">
+         
+        <div className="d-flex justify-content-center align-items-center custom-main-footer">
+          <div className="col-md-6 d-flex j pt-5 mt-5">
             <img src={Logo} alt="" className="img-fluid logo-2" />
             <div className="mt-3 footerflex">
               <p>
