@@ -145,7 +145,13 @@
   border-radius: 15px 0px 0px 0px;
   opacity: 0px;
  margin-top: 200px;
- 
+
+}
+.footerflex{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
 }
 
 .top-logo {
@@ -156,6 +162,22 @@
   gap: 0px;
   opacity: 0px;
 }
+.long {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.all{
+  margin-right: 200px;
+}
+
+.long img {
+  max-height: 100px;
+  margin-bottom: 10px; /* Add spacing between the image and paragraphs */
+}
+
 
 .logo {
   height: 50px;

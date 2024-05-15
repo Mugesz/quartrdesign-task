@@ -1,19 +1,23 @@
 import React from "react";
 import Logo from "../asserts/Logo.png";
 import long from "../asserts/Escultures.png";
+import line from "../asserts/img3.png"
 
 function Footer() {
   return (
-    <footer id="footer" className="bg-footer text-white ">
+    <footer id="footer" className="bg-footer text-white">
       <div className="container">
         <div className="bg-footer-voilet position-relative">
           <div className="long">
-            <img src={long} alt="Your Logo" style={{ maxHeight: "100px" }} />
-            <p className="text-center">Thanks for visit my website</p>
-            <p className="text-center">
-              If you have any questions you can write me to any of my social
-              networks, I am sure I will answer you.
+            <img src={long} alt="Your Logo" style={{ maxHeight: "180px" }} />
+           <div className="all">
+           <p>Thanks for visiting my website</p>
+            <p>
+              If you have any questions, you can write to me on any of my social
+              networks. I'm sure I'll answer you.
             </p>
+           </div>
+           <img src={line} alt="" height="80px" />
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-center">
