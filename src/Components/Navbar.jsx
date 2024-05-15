@@ -1,14 +1,22 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { DarkModeContext } from "./Context";
-import LOGO from "../asserts/Logo.png"
+import LOGO from "../asserts/Logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const [iconMoved, setIconMoved] = useState(false);
 
   useEffect(() => {
     document.body.classList.toggle("dark", darkMode);
   }, [darkMode]);
+
+  const toggleMode = () => {
+    toggleDarkMode();
+    setIconMoved(!iconMoved);
+  };
 
   return (
     <nav className="navbar navbar-expand-lg bgforNav fixed-top">
@@ -91,12 +99,11 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Toggle Dark Mode Button */}
+          {/* Toggle Dark Mode Icon */}
           <button
-            className={darkMode ? "btn btn-light" : "btn btn-secondary"}
-            onClick={toggleDarkMode}
+            className="btn btn-icon btn-lg btn-transparent ml-2"
           >
-            {darkMode ? "Light" : "Dark"}
+            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
           </button>
 
           {/* Other Button (on the right) */}
