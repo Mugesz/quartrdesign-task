@@ -7,16 +7,10 @@ import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
-  const [iconMoved, setIconMoved] = useState(false);
 
-  useEffect(() => {
-    document.body.classList.toggle("dark", darkMode);
-  }, [darkMode]);
 
-  const toggleMode = () => {
-    toggleDarkMode();
-    setIconMoved(!iconMoved);
-  };
+
+  
 
   return (
     <nav className="navbar navbar-expand-lg bgforNav fixed-top">
@@ -99,14 +93,14 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Toggle Dark Mode Icon */}
+          
           <button
             className="btn btn-icon btn-lg btn-transparent ml-2"
           >
             <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
           </button>
 
-          {/* Other Button (on the right) */}
+        
           <button className="btn btn-dark ml-2">Button</button>
         </div>
       </div>
