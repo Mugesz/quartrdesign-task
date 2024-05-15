@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/quartrdesign-task/static/css/main.22cd399d.css",
+    "main.js": "/quartrdesign-task/static/js/main.befa3a36.js",
+    "static/js/453.aec69dce.chunk.js": "/quartrdesign-task/static/js/453.aec69dce.chunk.js",
+    "static/media/img1.jpeg": "/quartrdesign-task/static/media/img1.50013c93f4c581d1d485.jpeg",
+    "static/media/bg-sheild.jpeg": "/quartrdesign-task/static/media/bg-sheild.152d1729600f0cd08017.jpeg",
+    "static/media/boy.png": "/quartrdesign-task/static/media/boy.99ed06d82f091ab0929a.png",
+    "static/media/girl.png": "/quartrdesign-task/static/media/girl.fa2a4728920623db160e.png",
+    "static/media/baby.png": "/quartrdesign-task/static/media/baby.0cc2d74be7b07ce1b7aa.png",
+    "static/media/Escultures.png": "/quartrdesign-task/static/media/Escultures.7042919034b875439ff6.png",
+    "static/media/star.jpg": "/quartrdesign-task/static/media/star.4286fc0d28539e2abcf5.jpg",
+    "static/media/Graph.png": "/quartrdesign-task/static/media/Graph.bfe080acbd5291f3d408.png",
+    "static/media/img2.jpeg": "/quartrdesign-task/static/media/img2.19de847658a718ff77cf.jpeg",
+    "index.html": "/quartrdesign-task/index.html",
+    "main.22cd399d.css.map": "/quartrdesign-task/static/css/main.22cd399d.css.map",
+    "main.befa3a36.js.map": "/quartrdesign-task/static/js/main.befa3a36.js.map",
+    "453.aec69dce.chunk.js.map": "/quartrdesign-task/static/js/453.aec69dce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22cd399d.css",
+    "static/js/main.befa3a36.js"
+  ]
+}
