@@ -5,8 +5,8 @@ import dawn from "../asserts/Dawn.png";
 const Success = () => {
   return (
     <div className="container mt-4 success-border">
-      <div className="d-flex flex-wrap justify-content-center align-items-center mt-5 mb-5">
-        <div className="success-1">
+      <div className="d-flex custom-success justify-content-center align-items-center mt-5 mb-5">
+        <div className="success-1 mr-4">
           <h1>
             <b>90%</b>
           </h1>
@@ -15,7 +15,7 @@ const Success = () => {
         <div className="mx-4">
           <img src={dawn} alt="" />
         </div>
-        <div className="success-1">
+        <div className="success-1 mr-4">
           <h1>
             <b>>25,000</b>
           </h1>

@@ -1,21 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 import LOGO from "../asserts/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-
-
-
-  
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
 
   return (
     <nav className="navbar navbar-expand-lg bgforNav fixed-top">
-      <div className="container-fluid  p-3">
-     
+      <div className="container-fluid p-3">
         <ScrollLink
           className="navbar-brand"
           to="home"
@@ -31,17 +30,13 @@ const Navbar = () => {
         <button
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          onClick={toggleNav}
         >
           <span className="navbar-toggler-icon" />
         </button>
 
         {/* Navbar Items */}
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={"collapse navbar-collapse" + (isNavOpen ? " show" : "")}>
           <ul className="navbar-nav mx-auto"> {/* Centered */}
             <li className="nav-item">
               <ScrollLink
@@ -69,7 +64,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className= "nav-link"
+                className="nav-link"
                 to="skills"
                 spy={true}
                 smooth={true}
@@ -81,7 +76,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className= "nav-link"
+                className="nav-link"
                 to="about"
                 spy={true}
                 smooth={true}
@@ -93,14 +88,10 @@ const Navbar = () => {
             </li>
           </ul>
 
-          
-          <button
-            className="btn btn-icon btn-lg btn-transparent ml-2"
-          >
+          <button className="btn btn-icon btn-lg btn-transparent ml-2">
             <FontAwesomeIcon icon={faMoon} />
           </button>
 
-        
           <button className="btn btn-dark ml-2">Button</button>
         </div>
       </div>

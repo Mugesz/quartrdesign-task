@@ -26,7 +26,7 @@ function Footer() {
           <img src={Line} alt="" className="Line-img" />
         </div>
         <div className="d-flex justify-content-center align-items-center custom-main-footer ">
-          <div className="col-md-6 justify-content-between d-flex j pt-5 mt-5">
+          <div className="col-md-6 justify-content-between d-flex custom-footer-logo pt-5 mt-5">
             <img src={Logo} alt="" className="img-fluid logo-2 mt-4" />
             <div className="mt-5 footerflex">
               <p>

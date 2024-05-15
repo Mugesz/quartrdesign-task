@@ -90,6 +90,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .custom-success{
+    flex-direction: column;
+  }
 }
 
 /* skills */
@@ -193,6 +196,7 @@
 
   .footerflex {
     flex-direction: row; 
+    gap: 1px;
   }
 
   .long {
@@ -203,6 +207,15 @@
   .custom-image {
     width: 120px; 
   }
+  .custom-footer-logo{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px !important;
+  }
+  .custom-footer-logo img{
+   width: 100px;
+   
+  }
  
 }
 
@@ -211,18 +224,25 @@
     width: 90%; /* Adjust width as needed */
     margin-left: auto;
     margin-right: auto;
-    left: 200px;
+    left: 170px;
     right: 0;
     transform: translate(-50%, -50%);
-    top: 30%;
-    height: 150px;
+    top: -2%;
+    height: 140px;
   }
 
   .ptags {
-    margin-left: auto;
+    margin-left: 130px;
     margin-right: auto;
     text-align: center;
-    margin-top: 20px; /* Adjust top margin as needed */
+    margin-top: 20px; 
+    font-size: 10px;
+    width: 200px;
   }
+  .long-img{
+    height: 200px;
+  }
+
+
 }
 
