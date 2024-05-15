@@ -12,7 +12,7 @@ const UI = () => {
                 <img
                   className="card-img-top"
                   src={img2}
-                  alt="Card image cap"
+                  alt=""
                   height="250px"
                 />
               </div>
@@ -25,9 +25,9 @@ const UI = () => {
                   <button className="btn btn-sm bg-btn">javascript</button>
                 </p>
                 <div className="text-center">
-                  <a href="#" className="btn btn-dark">
+                  <button className="btn btn-dark" onClick={() => window.location.href = 'https://example.com'}>
                     Go somewhere
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
