@@ -141,21 +141,36 @@
 }
 
 /* Footer */
-/* styles.css */
+
 
 .bg-footer {
   background-color: #292929;
-  position: relative; /* Ensure proper positioning */
-  color: white; /* Set text color */
+  position: relative;
+  margin-top: 100px;
+
 }
 
+.voilet-container{
+  position: absolute;
+  background-color: #A87FF3;
+  top: -50%;
+  height: 174px;
+  width: 1000px;
+}
+.ptags{
+  margin-left: 250px;
+  margin-top: 50px;
+}
 
+.long-img{
+  height: 250px;
+  position: absolute;
+  top: -50%;
+}
 
-
-
-
-
-
+.Line-img{
+  height: 45px;
+}
 .footerflex {
   display: flex;
   gap: 20px; 
@@ -177,8 +192,7 @@
   }
 
   .footerflex {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: row; 
   }
 
   .long {
@@ -187,7 +201,28 @@
   }
 
   .custom-image {
-    width: 120px; /* Adjust image size */
+    width: 120px; 
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .voilet-container {
+    width: 90%; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    left: 200px;
+    right: 0;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    height: 150px;
+  }
+
+  .ptags {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px; /* Adjust top margin as needed */
   }
 }
 
