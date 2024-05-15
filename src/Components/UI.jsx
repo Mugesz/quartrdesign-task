@@ -25,7 +25,7 @@ const UI = () => {
                   <button className="btn btn-sm bg-btn">javascript</button>
                 </p>
                 <div className="text-center">
-                  <button className="btn btn-dark" onClick={() => window.location.href = 'https://example.com'}>
+                  <button className="btn btn-dark" >
                     Go somewhere
                   </button>
                 </div>
