@@ -161,6 +161,9 @@
   margin-left: 600px;
 }
 
+.relative-foot{
+   position: relative;
+}
 .top-logo {
   width: 281px;
   height: 397px;
