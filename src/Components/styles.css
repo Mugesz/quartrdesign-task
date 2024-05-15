@@ -150,6 +150,7 @@
   justify-content: center;
   gap: 10px;
   text-decoration: none;
+  margin-left: 600px;
 }
 
 .top-logo {
@@ -164,7 +165,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 .all {
