@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../asserts/Logo.png";
 import long from "../asserts/Escultures.png";
 import Line from "../asserts/img3.png";
-import "styles.css"
+import "./styles.css"
 
 function Footer() {
   return (
