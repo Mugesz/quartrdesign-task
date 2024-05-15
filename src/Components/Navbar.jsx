@@ -1,12 +1,12 @@
-import React, { useContext, useEffect, useState } from "react";
+import React from "react";
 import { Link as ScrollLink } from "react-scroll";
-import { DarkModeContext } from "./Context";
+
 import LOGO from "../asserts/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import {  faMoon } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+
 
 
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           <ul className="navbar-nav mx-auto"> {/* Centered */}
             <li className="nav-item">
               <ScrollLink
-                className={darkMode ? "nav-link" : "nav-link"}
+                className="nav-link"
                 to="create-task"
                 spy={true}
                 smooth={true}
@@ -57,7 +57,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className={darkMode ? "nav-link" : "nav-link"}
+                className="nav-link"
                 to="portfolio"
                 spy={true}
                 smooth={true}
@@ -69,7 +69,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className={darkMode ? "nav-link" : "nav-link"}
+                className= "nav-link"
                 to="skills"
                 spy={true}
                 smooth={true}
@@ -81,7 +81,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <ScrollLink
-                className={darkMode ? "nav-link" : "nav-link"}
+                className= "nav-link"
                 to="about"
                 spy={true}
                 smooth={true}
@@ -97,7 +97,7 @@ const Navbar = () => {
           <button
             className="btn btn-icon btn-lg btn-transparent ml-2"
           >
-            <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
+            <FontAwesomeIcon icon={faMoon} />
           </button>
 
         
